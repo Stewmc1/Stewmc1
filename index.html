@@ -1,11 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Bienvenido</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="./arriba.png" />
+    <title>Steewar Martinez CV</title>
   </head>
   <body>
-    <h1>¡Hola, mundo!</h1>
-    <p>Este es mi primer sitio con GitHub Pages.</p>
+    <header id="inicio">
+      <h1>Steewar <span> Martinez</span></h1>
+      <p>Programador Front-end</p>
+    </header>
+    <main>
+      <div class="container">
+        <img
+          src="./foto.jpg"
+          alt="Foto de una ilustracion de un cerebro adentro de una bombilla"
+        />
+        <div class="description">
+          <p>
+            Actualmente me encuentro estudiando Psicología, ya que tengo una
+            gran pasión con comprender el comportamiento humano y encontrar
+            formas innovadoras de ayudar a las personas. De manera autodidacta,
+            me he sumergido en el mundo de la programación, especializándome en
+            desarrollo web con tecnologías modernas
+          </p>
+          <a
+            download="Steewar-Martinez-CV.pdf"
+            href="./Steewar-Martinez-CV.pdf "
+            ><button class="download-cv">Descargar CV</button></a
+          >
+        </div>
+      </div>
+      <div class="nav">
+        <ul id="menu">
+          <li><a href="#inicio" class="active">Inicio</a></li>
+          <li><a href="#about-me">Sobre mi</a></li>
+          <li><a href="#portfolio">Portafolio</a></li>
+        </ul>
+      </div>
+
+      <div class="about-me" id="about-me">
+        <div class="about-me-title">
+          <h2>Sobre mi</h2>
+          <div class="divider"></div>
+          <p>
+            Me considero una persona tranquila con una mentalidad positivista y
+            con muchas aficiones, tales como la Fórmula 1 y la NBA, siempre
+            siguiendo cada carrera y partido. Me encanta leer, perderme en
+            historias que me hacen imaginar y aprender cosas nuevas. También
+            disfruto dibujar, dejando que la creatividad fluya. Los videojuegos
+            y ver anime son otra de mis grandes aficiones, donde encuentro
+            diversión, entretenimiento y momentos para desconectar.
+          </p>
+        </div>
+        <img src="./sobreMi.png" alt="Imagen de las aficiones que me gustan" />
+      </div>
+
+      <div class="portfolio" id="portfolio">
+        <div class="portfolio-title">
+          <h2>Proyectos</h2>
+          <div class="divider"></div>
+        </div>
+
+        <div class="galery">
+          <div class="card">
+            <div class="presentation">
+              <h3>Adivina la bandera</h3>
+              <p>
+                Un juego interactivo donde puedes adivinar la bandera de un país
+                a partir de una pista. Desarrollado con HTML, CSS y TypeScript.
+              </p>
+            </div>
+            <div class="links">
+              <a
+                href="https://adivina-la-bandera-stew.netlify.app"
+                target="_blank"
+              >
+                <button class="btn">Pagina</button>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="presentation">
+              <h3>Pomodoro</h3>
+              <p>
+                Un temporizador Pomodoro interactivo que te ayuda a gestionar tu
+                tiempo de estudio o trabajo. Desarrollado con HTML, CSS y
+                TypeScript.
+              </p>
+            </div>
+            <div class="links">
+              <a href="https://pomodoro-stew.netlify.app" target="_blank">
+                <button class="btn">Pagina</button>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="presentation">
+              <h3>E-commerce</h3>
+              <p>
+                Un sitio web de comercio electrónico que permite a los usuarios
+                explorar productos, añadirlos al carrito y realizar compras.
+                Desarrollado con HTML, CSS y TypeScript.
+              </p>
+            </div>
+            <div class="links">
+              <a href="https://e-commerce-stew.netlify.app" target="_blank">
+                <button class="btn">Pagina</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <h4>Steewar <span>Martinez</span></h4>
+      <div class="social-links">
+        <a href="https://github.com/Stewmc1" target="_blank">
+          <img
+            src="https://img.icons8.com/color/48/000000/github--v1.png"
+            alt="github"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/steewarmartinez/" target="_blank">
+          <img
+            src="https://img.icons8.com/color/48/000000/linkedin.png"
+            alt="linkedin"
+          />
+        </a>
+        <a
+          href="https://mail.google.com/mail/?view=cm&to=steewarmartinez@gmail.com"
+          target="_blank"
+        >
+          <img
+            src="https://img.icons8.com/color/48/000000/gmail.png"
+            alt="gmail"
+          />
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
